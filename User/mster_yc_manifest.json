@@ -1,0 +1,349 @@
+{
+  "analysis": {
+    "adc": [],
+    "dma": [
+      {
+        "direction": "DMA_PERIPH_TO_MEMORY",
+        "index": "0",
+        "instance": "DMA2_Stream2",
+        "memory_alignment": "DMA_MDATAALIGN_BYTE",
+        "mode": "DMA_NORMAL",
+        "peripheral_alignment": "DMA_PDATAALIGN_BYTE",
+        "priority": "DMA_PRIORITY_VERY_HIGH",
+        "request": "USART1_RX"
+      },
+      {
+        "direction": "DMA_MEMORY_TO_PERIPH",
+        "index": "1",
+        "instance": "DMA2_Stream7",
+        "memory_alignment": "DMA_MDATAALIGN_BYTE",
+        "mode": "DMA_NORMAL",
+        "peripheral_alignment": "DMA_PDATAALIGN_BYTE",
+        "priority": "DMA_PRIORITY_VERY_HIGH",
+        "request": "USART1_TX"
+      },
+      {
+        "direction": "DMA_PERIPH_TO_MEMORY",
+        "index": "2",
+        "instance": "DMA1_Stream1",
+        "memory_alignment": "DMA_MDATAALIGN_BYTE",
+        "mode": "DMA_NORMAL",
+        "peripheral_alignment": "DMA_PDATAALIGN_BYTE",
+        "priority": "DMA_PRIORITY_VERY_HIGH",
+        "request": "USART3_RX"
+      },
+      {
+        "direction": "DMA_PERIPH_TO_MEMORY",
+        "index": "3",
+        "instance": "DMA2_Stream1",
+        "memory_alignment": "DMA_MDATAALIGN_BYTE",
+        "mode": "DMA_NORMAL",
+        "peripheral_alignment": "DMA_PDATAALIGN_BYTE",
+        "priority": "DMA_PRIORITY_LOW",
+        "request": "USART6_RX"
+      },
+      {
+        "direction": "DMA_MEMORY_TO_PERIPH",
+        "index": "4",
+        "instance": "DMA2_Stream6",
+        "memory_alignment": "DMA_MDATAALIGN_BYTE",
+        "mode": "DMA_NORMAL",
+        "peripheral_alignment": "DMA_PDATAALIGN_BYTE",
+        "priority": "DMA_PRIORITY_LOW",
+        "request": "USART6_TX"
+      }
+    ],
+    "exti": [],
+    "gpio": [
+      {
+        "default_level": "",
+        "label": "",
+        "mode": "GPIO_MODE_INPUT",
+        "pin": "PA0-WKUP",
+        "pull": "",
+        "signal": "GPIO_Input",
+        "speed": ""
+      }
+    ],
+    "nvic": [
+      {
+        "enabled": true,
+        "irq": "BusFault_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "CAN1_RX0_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "CAN1_RX1_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "CAN2_RX0_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "CAN2_RX1_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "DMA1_Stream1_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "DMA2_Stream1_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "DMA2_Stream2_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "DMA2_Stream6_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "DMA2_Stream7_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "DebugMonitor_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "HardFault_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "MemoryManagement_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "NonMaskableInt_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "PendSV_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "SVCall_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "SysTick_IRQn",
+        "preemption_priority": "15",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "TIM2_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "USART1_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "USART3_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "USART6_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      },
+      {
+        "enabled": true,
+        "irq": "UsageFault_IRQn",
+        "preemption_priority": "0",
+        "subpriority": "0"
+      }
+    ],
+    "peripheral_settings": {
+      "can": {
+        "CAN1": {
+          "ABOM": "ENABLE",
+          "AWUM": "ENABLE",
+          "BS1": "CAN_BS1_2TQ",
+          "BS2": "CAN_BS2_3TQ",
+          "CalculateBaudRate": "999999",
+          "CalculateTimeBit": "1000",
+          "CalculateTimeQuantum": "166.66666666666669",
+          "Prescaler": "7"
+        },
+        "CAN2": {
+          "ABOM": "ENABLE",
+          "AWUM": "ENABLE",
+          "BS1": "CAN_BS1_2TQ",
+          "BS2": "CAN_BS2_3TQ",
+          "CalculateBaudRate": "999999",
+          "CalculateTimeBit": "1000",
+          "CalculateTimeQuantum": "166.66666666666669",
+          "Prescaler": "7"
+        }
+      },
+      "tim": {
+        "TIM1": {
+          "Period": "19999",
+          "Prescaler": "167"
+        },
+        "TIM2": {
+          "Period": "0xFFFFFFFF",
+          "Prescaler": "83"
+        },
+        "TIM4": {
+          "Period": "999",
+          "Prescaler": "83"
+        }
+      },
+      "uart": {
+        "USART1": {
+          "BaudRate": "115200",
+          "VirtualMode": "VM_ASYNC"
+        },
+        "USART3": {
+          "BaudRate": "115200",
+          "VirtualMode": "VM_ASYNC",
+          "WordLength": "WORDLENGTH_8B"
+        },
+        "USART6": {
+          "VirtualMode": "VM_ASYNC"
+        }
+      }
+    },
+    "peripherals": {
+      "adc": [],
+      "can": [
+        "CAN1",
+        "CAN2"
+      ],
+      "fdcan": [],
+      "i2c": [],
+      "spi": [],
+      "tim": [
+        "TIM1",
+        "TIM2",
+        "TIM4"
+      ],
+      "uart": [
+        "USART1",
+        "USART3",
+        "USART6"
+      ]
+    },
+    "pwm": [
+      {
+        "channel": "TIM_CHANNEL_1",
+        "label": "TIM1_CH1",
+        "pin": "PE9",
+        "signal": "S_TIM1_CH1",
+        "timer": "TIM1"
+      },
+      {
+        "channel": "TIM_CHANNEL_2",
+        "label": "TIM1_CH2",
+        "pin": "PE11",
+        "signal": "S_TIM1_CH2",
+        "timer": "TIM1"
+      },
+      {
+        "channel": "TIM_CHANNEL_3",
+        "label": "TIM1_CH3",
+        "pin": "PE13",
+        "signal": "S_TIM1_CH3",
+        "timer": "TIM1"
+      },
+      {
+        "channel": "TIM_CHANNEL_4",
+        "label": "TIM1_CH4",
+        "pin": "PE14",
+        "signal": "S_TIM1_CH4",
+        "timer": "TIM1"
+      },
+      {
+        "channel": "TIM_CHANNEL_3",
+        "label": "TIM4_CH3",
+        "pin": "PD14",
+        "signal": "S_TIM4_CH3",
+        "timer": "TIM4"
+      }
+    ],
+    "status": "analyzed",
+    "updated_at": "2026-09-09T11:08:42+00:00"
+  },
+  "errors": [],
+  "generation": {
+    "enabled_modules": [
+      "key",
+      "pwm",
+      "uart"
+    ],
+    "files": [],
+    "status": "not_generated",
+    "templates": [],
+    "updated_at": null
+  },
+  "generator": {
+    "name": "Mster_YC",
+    "version": "0.4.0"
+  },
+  "initialization": {
+    "fixed_modules": [
+      "scheduler",
+      "multitimer"
+    ],
+    "model": "baremetal",
+    "notes": [
+      "HAL/CubeMX 初始化仍由用户工程的 MX_*_Init 函数负责。",
+      "BSP 映射自动生成，外设启动和业务调用保留给用户代码。"
+    ]
+  },
+  "project": {
+    "execution_model": "baremetal",
+    "ioc_path": "dartboard_v2.0.ioc",
+    "mcu": "STM32F407IGHx",
+    "name": "dartboard_v2.0"
+  },
+  "schema_version": 1,
+  "warnings": []
+}
